@@ -9,7 +9,7 @@
 
 ## ▶️ Como executar o projeto?
     - Abra o projeto em uma IDE de sua preferência
-    - Clique com o botão direito no pacote test, e selecione a opção "Run tests"
+    - Clique com o botão direito no pacote test, e selecione a opção "Run tests" ou clique na classe que deseja executar e em "Run"
     - Os testes serão executados e o relatório será gerado na pasta "allure-results" no projeto
     - Para visualizar o relatório, instale o Allure, e execute o comando "allure serve" no terminal ou utilize este link: https://github.com/allure-framework/allure2/releases
     - Caso queira testar a geração de relatórios, precisa instalar o Allure Results no PC e rodar o comando: allure serve allure-results
