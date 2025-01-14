@@ -22,6 +22,15 @@ public class LoginTest extends BaseTest {
     @Description(CT_LOGIN_01)
     public void testValidarLogin(){
 
+        /*
+        CT001: Realizar login com dados válidos
+        DADO que estou na página home
+        E clico no botao "Sign in"
+        E preencho o campo email com email cadastrado
+        E preencho o campo senha com uma senha válida
+        QUANDO clico no botão Sign in
+        ENTÃO sou direcionado para a tela "My Account".
+         */
         LoginDTO loginDTO =  loginData.login();
 
         clicar(btnLogin);
@@ -36,6 +45,15 @@ public class LoginTest extends BaseTest {
     @Description(CT_LOGIN_02)
     public void testValidarLoginComEmailInvalido(){
 
+        /* CT002: Realizar login com email inválido
+        DADO que estou na página home
+        E clico no botao "Sign in"
+        E preencho o campo email com email não cadastrado
+        E preencho o campo senha com uma senha válida
+        QUANDO clico no botão Sign in
+        ENTÃO a mensagem "Authentication failed." deve ser exibida na tela.
+        */
+
         LoginDTO loginDTO =  loginData.loginEmailInvalido();
 
         clicar(btnLogin);
@@ -49,6 +67,15 @@ public class LoginTest extends BaseTest {
     @Test
     @Description(CT_LOGIN_03)
     public void testValidarLoginComSenhaInvalida(){
+
+        /* CT003: Realizar login com senha inválida
+        DADO que estou na página home
+        E clico no botao "Sign in"
+        E preencho o campo email com email cadastrado
+        E preencho o campo senha com uma senha inválida
+        QUANDO clico no botão Sign in
+        ENTÃO a mensagem "Authentication failed." deve ser exibida na tela.
+        */
 
         LoginDTO loginDTO =  loginData.loginSenhaInvalida();
 

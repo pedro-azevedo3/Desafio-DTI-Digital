@@ -22,7 +22,13 @@ public class LogoutTest extends BaseTest{
     @Test
     @Description(CT_LOGOUT_01)
     public void testValidarLogout(){
-
+        /*
+        CT001: Realizar logout
+        DADO que estou logado na aplicação
+        E estou na página home
+        QUANDO clico no botão "Sign out"
+        ENTÃO a opção "Sign in" deve aparecer novamente.
+        */
         LoginDTO loginDTO =  loginData.login();
 
         clicar(btnLogin);

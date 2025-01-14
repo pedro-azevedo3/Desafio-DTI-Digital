@@ -16,7 +16,7 @@
     - O relatório será aberto no navegador padrão, como mostrado abaixo:
 
 ## ❓Como funcionam os cenários e explicações da abordagem utilizada:
-    - Abaixo estão os cenários e como eles se comportaram durante as automações seguindo o padrão Gherkin solicitado nas instruções do desafio
+    - Abaixo estão os cenários e como eles se comportaram durante as automações seguindo o padrão Gherkin solicitado nas instruções do desafio, o Gherkin também está comentado dentro das classes na pasta "test" para auxiliar
     - Foram feitos mais de 3 cenários, ao todos são 15 cenários 😁
     - Durante a produção da automação foi cogitado usar Cucumber para a documentação dos steps. Porém, a ideia foi criar uma automação concreta e com resultados gerados utilizando Allure. Como não foi exigido o cucumber optei por essa abordagem.
 

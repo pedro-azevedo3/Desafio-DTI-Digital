@@ -17,7 +17,12 @@ public class OrdenacaoTest extends BaseTest{
     @Test
     @Description(CT_ORDENACAO_01)
     public void testOrdenarProdutosPorMenorPreco(){
-
+        /*CT001: Ordenar os produtos pelo menor preço
+        DADO que estou na página inicial
+        E clico no botão "Women"
+        QUANDO preencho o campo "Sort by" com a opção "Price: Lowest first"
+        ENTÃO o preço do primeiro produto exibido deve ser menor ou igual ao preço do segundo produto exibido
+         */
         clicar(btnWomen);
 
         selectPorIndex(selectSortBy, 1);
@@ -31,7 +36,12 @@ public class OrdenacaoTest extends BaseTest{
     @Test
     @Description(CT_ORDENACAO_02)
     public void testOrdenarProdutosPorMaiorPreco(){
-
+        /*CT002: Ordenar os produtos pelo maior preço
+        DADO que estou na página inicial
+        E clico no botão "Women"
+        QUANDO preencho o campo "Sort by" com a opção "Price: Highest first"
+        ENTÃO o preço do primeiro produto exibido deve ser maior ou igual ao preço do segundo produto exibido
+         */
         clicar(btnWomen);
 
         selectPorIndex(selectSortBy, 2);
