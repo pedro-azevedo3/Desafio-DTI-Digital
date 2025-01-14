@@ -5,7 +5,7 @@
 
 ## ⚠️ Como baixar o projeto?
     Clone o repositório com o comando: 
-    git clone https://github.com/pedro-azevedo3/desafio-dti
+    git clone https://github.com/pedro-azevedo3/Desafio-DTI-Digital
 
 ## ▶️ Como executar o projeto?
     - Abra o projeto em uma IDE de sua preferência
